@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg:#242635;
+    --letras:#34b0be;
+    --divLetters
+}
+
+
+.Wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+/*NAV BAR*/
+.Menu{
+    display: flex;
+    width: 95%;
+    gap: 3em;
+    justify-content: end;
+}
+.Menu li{
+    list-style: none;
+}
+.Menu a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+}
+.Menu .Active{
+    color: var(--letras);
+}
+/*NAV BAR ENDS*/
+
+.firstSection{
+    padding: 5%;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+
+}
+.main{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: var(--bg);
+   
+}
+
+ .main h2{
+    color: var(--letras);
+    font-size: 32px;
+ }   
+
+.FT h2{
+    text-decoration: underline;
+    font-size: 50px;
+    color: white;
+   
+}
+.firstSection{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    background-color: var(--bg);
+    
+    height: 50%;
+}
+.firstSection h1{
+    margin-top: 5%;
+    color:var(--letras);
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+.textSection{
+    width: 40%;
+    display: flex;
+    justify-self: start;
+    flex-wrap: wrap;
+    justify-self: start;
+}
+.textSection p{
+    margin-top: 3%;
+    width: 100%;
+    align-self: center;
+    justify-self: start;
+}
+.textSection span{
+    color: var(--letras);
+    font-weight: bold;
+}
+.sectionContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.imgContainer{
+    width: 100%;
+    text-align: center;
+}
+.imgContainer img{
+        width: 45%;
+        border-radius: 100%;
+      
+}
+.Buttons{
+    margin-top: 5%;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    gap: 3.5%;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 100%;
+    background-color: #fff;
+    align-self: flex-end;
+    text-align: center;
+}
+.button2{
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 100%;
+    background-color: #fff;
+    align-self: flex-end;
+    text-align: center;
+}
+.button3{
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 100%;
+    background-color: #fff;
+    align-self: flex-end;
+    text-align: center;
+}
+.logos{
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #fff;
+    align-self: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+.logos>div{
+    width: 30%;
+}
+.logo1{
+    background-color: gray;
+    text-align: center;
+}
+.logo2{
+    background-color: gray;
+    text-align: center;
+}
+.logo3{
+    background-color: gray;
+    text-align: center;
+}
+/*ABOUT ME SECTION*/
+.About{
+    
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+.About h2{
+    color: var(--letras);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.About p{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+/* SERVICES PART*/
+.Container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.services h2{
+    padding: 5%;
+    text-align: center;
+    color: var(--letras);
+}
+.Containers {
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    min-height: 50%;
+    justify-content: center;
+    gap: 1em;
+}
+.Containers>div{
+    width: 240px;
+    background-color:#fff;
+   
+}
+/*FIRST DIV*/
+.item{
+    width: 240px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.item .Pencil{
+    text-align: center;
+    margin: auto;
+    padding-top: ;
+    z-index: 1;
+    position: relative;
+}
+
+.Vector{
+    width: 100$;
+   text-align: center;
+}
+.Vector img{
+    margin-top:0 ;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+.altText {
+    margin-top: 20%;
+    text-align: center;
+    color: #D1CECA;
+    font-weight: bold;
+}
+/*SECOND DIV*/
+.item1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 10%;
+}
+.item1 img {
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-top: 15%;
+}
+.altText2 {
+    margin-top: 20%;
+    text-align: center;
+    color: #D1CECA;
+    font-weight: bold;
+}
+/* THRID DIV*/
+.item2{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 10%;
+}
+.item2 img {
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-top: 15%;
+}
+.altText3 {
+    margin-top: 20%;
+    text-align: center;
+    color: #D1CECA;
+    font-weight: bold;
+}
+/*END SERVICES*/
+/* SECOND SECTION*/
+.MySkills h2{
+   margin-top: 40px;
+    color: var(--letras);
+    text-align: center;
+}
+.skills{
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: start;
+    
+}
+.skillsName{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px 0;
+    text-align: start;
+}
+.skills-Bar{
+    height: 14px;
+    background-color: #fff;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.skills-per{
+    height: 14px;
+    background-color: var(--letras);
+    border-radius: 7px;
+    position: relative;
+    animation: fillBars 2.5s;
+}
+/*END SKILLS SECTION*/
+/*MY WORK SECTION*/
+.MyWork{
+    margin: 0 auto;
+    text-align: center;
+    color: var(--letras);
+    width: 80%;
+}
+.Work {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    border: #fff;
+    flex-wrap:nowrap ;
+    gap: 2% ;
+    overflow-y: scroll;
+}
+.Work img {
+    margin-top: 20px;
+    width: 30%;
+    height: 33%;
+}
+/*ENDS WORK SECTION*/
+/*CONTACT SECTION*/
+.contact{
+    margin: 0 auto;
+    text-align: center;
+    color: var(--letras);
+    width: 80%;
+    padding: 2%;
+}
